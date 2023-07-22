@@ -1,0 +1,7 @@
+ <!-- Email Form Component -->
+
+<form [formGroup] = "sendEmail" (submit) = "submitEmail()">   
+    <label for = "email-address">Enter Email Address:</label>
+    <input placeholder = "Enter Email Address" formControlName = "emailAddress">
+    <button type = "submit">Send Email</button>
+</form>
