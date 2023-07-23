@@ -1,7 +1,11 @@
  <!-- Email Form Component -->
 
-<form [formGroup] = "sendEmail" (submit) = "submitEmail()">   
+<form [formGroup] = "sendEmail" (ngSubmit) = "submitEmail(sendEmail.value)">   
     <label for = "email-address">Enter Email Address:</label>
-    <input placeholder = "Enter Email Address" formControlName = "emailAddress">
+    <input type = "text" placeholder = "Enter Email Address" formControlName = "emailAddress">
     <button type = "submit">Send Email</button>
 </form>
+
+
+
+
