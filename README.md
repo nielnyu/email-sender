@@ -25,7 +25,7 @@ The goal of this project is to create a full stack application that does:
 
 ## Video of Email Sender in action
 
-video link  - []
+video link  - [https://drive.google.com/file/d/1G29R7neHNtlX1jU5NpCuuOm2bKbWayFK/view?usp=sharing]
 
 ## Improvments 
 
