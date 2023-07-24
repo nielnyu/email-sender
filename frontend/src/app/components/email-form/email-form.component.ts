@@ -25,7 +25,7 @@ export class EmailFormComponent {
   emailService = inject(SendEmailService)
 
   
-  //handle submit event to console log that server is connected to frontend
+  //handle submit event 
   submitEmail(email : any) {
     this.emailService.addUser(email).subscribe((data : any)=>{
       console.log(data.message)
