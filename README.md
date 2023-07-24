@@ -2,7 +2,7 @@
 
 Email Sender System Web Application
 
-##Project Description:
+## Project Description:
 
 The goal of this project is to create a full stack application that does: 
   1. Have a client frontend interface that allows users to input their emails
@@ -13,7 +13,7 @@ The goal of this project is to create a full stack application that does:
 
 ## How to install and run the project 
 
-##note: the database and backend will fail, due to the fact the MySQL database is only on my local machine, where there have been no admin protocols used to allow other developers to access it. 
+## note: the database and backend will fail, due to the fact the MySQL database is only on my local machine, where there have been no admin protocols used to allow other developers to access it. 
 
 1. Navigate into the back-end directory
 2. Run npm install to install all dependencies listed in the package.json file
